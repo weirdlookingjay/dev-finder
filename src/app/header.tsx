@@ -12,7 +12,7 @@ export function Header() {
                 {session.data ? (
                     <Button onClick={() => signOut()}>Sign Out</Button>
                 ) : (
-                    <Button onClick={() => signIn("google")}>Sign Out</Button>
+                    <Button onClick={() => signIn("google")}>Sign In</Button>
                 )}
                 < ModeToggle />
             </div>
